@@ -1,0 +1,5 @@
+{
+  "scripts": [
+    "create service user training-user\n set ACL on /content\n allow jcr:all for training-user\n end\n"
+  ]
+}

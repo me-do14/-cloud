@@ -1,0 +1,130 @@
+{
+    "jcr:primaryType": "cq:Template",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Wed Jan 15 2020 14:17:29 GMT-0500",
+    "thumbnail.png": {
+        "jcr:primaryType": "nt:file",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Wed Jan 15 2020 14:17:29 GMT-0500",
+        "jcr:content": {
+            "jcr:primaryType": "nt:resource",
+            "jcr:mixinTypes": [
+                "dam:Thumbnails"
+            ],
+            "jcr:lastModifiedBy": "admin",
+            "jcr:mimeType": "image/png",
+            "jcr:lastModified": "Wed Jan 15 2020 14:17:29 GMT-0500",
+            ":jcr:data": 2160,
+            "jcr:uuid": "92d5e6a8-e0f4-49d9-a288-72ec8d3154c6",
+            "dam:thumbnails": {
+                "jcr:primaryType": "nt:folder",
+                "jcr:createdBy": "admin",
+                "jcr:created": "Wed Jan 15 2020 14:19:37 GMT-0500",
+                "dam:thumbnail_319.png": {
+                    "jcr:primaryType": "nt:file",
+                    "jcr:createdBy": "admin",
+                    "jcr:created": "Wed Jan 15 2020 14:34:22 GMT-0500"
+                },
+                "dam:thumbnail_300.png": {
+                    "jcr:primaryType": "nt:file",
+                    "jcr:createdBy": "admin",
+                    "jcr:created": "Wed Jan 15 2020 14:19:40 GMT-0500"
+                },
+                "dam:thumbnail_48.png": {
+                    "jcr:primaryType": "nt:file",
+                    "jcr:createdBy": "admin",
+                    "jcr:created": "Wed Jan 15 2020 14:19:37 GMT-0500"
+                }
+            }
+        }
+    },
+    "initial": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Wed Jan 15 2020 14:17:29 GMT-0500",
+        "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "cq:template": "/conf/training/settings/wcm/templates/page-content",
+            "jcr:created": "Wed Jan 15 2020 14:17:29 GMT-0500",
+            "sling:resourceType": "training/components/structure/page",
+            "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "wcm/foundation/components/responsivegrid",
+                "responsivegrid": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:resourceType": "wcm/foundation/components/responsivegrid"
+                }
+            }
+        }
+    },
+    "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Content Page",
+        "status": "enabled",
+        "jcr:created": "Wed Jan 15 2020 14:17:29 GMT-0500",
+        "jcr:description": "Simple content page for training",
+        "cq:templateType": "/conf/training/settings/wcm/template-types/content-page"
+    },
+    "structure": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Wed Jan 15 2020 14:17:29 GMT-0500",
+        "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "cq:template": "/conf/training/settings/wcm/templates/page-content",
+            "jcr:created": "Wed Jan 15 2020 14:17:29 GMT-0500",
+            "cq:deviceGroups": [
+                "/etc/mobile/groups/responsive"
+            ],
+            "sling:resourceType": "training/components/structure/page",
+            "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "wcm/foundation/components/responsivegrid",
+                "experiencefragment-header": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "fragmentVariationPath": "/content/experience-fragments/training/us/en/site/header/master",
+                    "sling:resourceType": "training/components/content/experiencefragment"
+                },
+                "responsivegrid": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:resourceType": "wcm/foundation/components/responsivegrid",
+                    "editable": true
+                },
+                "experiencefragment-footer": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "fragmentVariationPath": "/content/experience-fragments/training/us/en/site/footer/master",
+                    "sling:resourceType": "training/components/content/experiencefragment"
+                }
+            },
+            "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "breakpoints": {
+                    "jcr:primaryType": "nt:unstructured"
+                }
+            }
+        }
+    },
+    "policies": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Wed Jan 15 2020 14:17:29 GMT-0500",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "cq:policy": "training/components/structure/page/policy_content_page",
+            "sling:resourceType": "wcm/core/components/policies/mappings",
+            "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:policy": "wcm/foundation/components/responsivegrid/content-default",
+                "sling:resourceType": "wcm/core/components/policies/mapping",
+                "responsivegrid": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "cq:policy": "wcm/foundation/components/responsivegrid/content-default",
+                    "sling:resourceType": "wcm/core/components/policies/mapping"
+                }
+            }
+        }
+    }
+}

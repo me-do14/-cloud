@@ -1,0 +1,27 @@
+/content/training/us/en/products,Products,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/apparel
+/content/training/us/en/products/women,Women,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/gender/women
+/content/training/us/en/products/women/coats,Coats,,/content/cq:tags/training/apparel/coat
+/content/training/us/en/products/women/coats/raincoat,Rain Coats,,/content/cq:tags/training/apparel/coat
+/content/training/us/en/products/women/coats/insulated,Insulated Coats,,/content/cq:tags/training/apparel/coat
+/content/training/us/en/products/women/shirts,Shirts,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/apparel/shirt
+/content/training/us/en/products/women/shirts/tshirt,T-shirts,,/content/cq:tags/training/apparel/shirt
+/content/training/us/en/products/women/shirts/polo,Polo Shirts,,/content/cq:tags/training/apparel/shirt
+/content/training/us/en/products/women/pants,Pants,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/apparel/pants
+/content/training/us/en/products/women/pants/jeans,Jeans,,/content/cq:tags/training/apparel/pants
+/content/training/us/en/products/women/pants/stretchypants,Stretchy Pants,,/content/cq:tags/training/apparel/pants
+/content/training/us/en/products/women/shorts,Shorts,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/apparel/shorts
+/content/training/us/en/products/women/shorts/khakis,Khaki Shorts,,/content/cq:tags/training/apparel/shorts
+/content/training/us/en/products/women/shorts/jeans,Jean Shorts,,/content/cq:tags/training/apparel/shorts
+/content/training/us/en/products/men,Men,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/gender/men
+/content/training/us/en/products/men/coats,Coats,,/content/cq:tags/training/apparel/coat
+/content/training/us/en/products/men/coats/raincoat,Rain Coats,,/content/cq:tags/training/apparel/coat
+/content/training/us/en/products/men/coats/insulated,Insulated Coats,,/content/cq:tags/training/apparel/coat
+/content/training/us/en/products/men/shirts,Shirts,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/apparel/shirt
+/content/training/us/en/products/men/shirts/tshirt,T-shirts,,/content/cq:tags/training/apparel/shirt
+/content/training/us/en/products/men/shirts/polo,Polo Shirts,,/content/cq:tags/training/apparel/shirt
+/content/training/us/en/products/men/pants,Pants,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/apparel/pants
+/content/training/us/en/products/men/pants/jeans,Jeans,,/content/cq:tags/training/apparel/pants
+/content/training/us/en/products/men/pants/stretchypants,Stretchy Pants,,/content/cq:tags/training/apparel/pants
+/content/training/us/en/products/men/shorts,Shorts,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/apparel/shorts
+/content/training/us/en/products/men/shorts/khakis,Khaki Shorts,,/content/cq:tags/training/apparel/shorts
+/content/training/us/en/products/men/shorts/jeans,Jean Shorts,,/content/cq:tags/training/apparel/shorts

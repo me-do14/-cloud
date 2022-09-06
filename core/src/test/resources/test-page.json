@@ -1,0 +1,76 @@
+{
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Wed Jan 15 2020 17:39:54 GMT-0500",
+    "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:createdBy": "admin",
+        "jcr:title": "English",
+        "cq:template": "/conf/training/settings/wcm/templates/page-content",
+        "jcr:created": "Wed Jan 15 2020 17:39:54 GMT-0500",
+        "cq:lastModified": "Wed Jan 15 2020 17:42:08 GMT-0500",
+        "sling:resourceType": "training/components/page",
+        "cq:lastModifiedBy": "admin",
+        "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "training/components/container",
+            "container": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "training/components/container",
+                "title": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "jcr:createdBy": "admin",
+                    "jcr:title": "This is a test page",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:created": "Wed Jan 15 2020 17:41:02 GMT-0500",
+                    "jcr:lastModified": "Wed Jan 15 2020 17:41:09 GMT-0500",
+                    "sling:resourceType": "training/components/title"
+                },
+                "download": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "jcr:createdBy": "admin",
+                    "fileReference": "/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:created": "Wed Jan 15 2020 17:40:54 GMT-0500",
+                    "jcr:lastModified": "Wed Jan 15 2020 17:41:15 GMT-0500",
+                    "sling:resourceType": "training/components/download"
+                },
+                "separator": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "jcr:createdBy": "admin",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:created": "Wed Jan 15 2020 17:41:30 GMT-0500",
+                    "jcr:lastModified": "Wed Jan 15 2020 17:41:30 GMT-0500",
+                    "sling:resourceType": "training/components/separator"
+                },
+                "stockplex": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "jcr:createdBy": "admin",
+                    "summary": "Adobe's stock price today",
+                    "jcr:lastModifiedBy": "admin",
+                    "symbol": "ADBE",
+                    "jcr:created": "Thu Mar 21 2019 12:23:17 GMT-0400",
+                    "showStockDetails": "true",
+                    "jcr:lastModified": "Thu Mar 21 2019 12:23:34 GMT-0400",
+                    "sling:resourceType": "training/components/stockplex"
+                },
+                "list": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "showModificationDate": "false",
+                    "jcr:createdBy": "admin",
+                    "tagsMatch": "any",
+                    "linkItems": "false",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:created": "Wed Jan 15 2020 17:41:35 GMT-0500",
+                    "parentPage": "/content/wknd/language-masters/en/adventures",
+                    "sortOrder": "asc",
+                    "showDescription": "false",
+                    "jcr:lastModified": "Wed Jan 15 2020 17:42:08 GMT-0500",
+                    "sling:resourceType": "training/components/list",
+                    "childDepth": "1",
+                    "listFrom": "children"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "jcr:primaryType": "sling:OrderedFolder",
+    "jcr:createdBy": "training-user",
+    "jcr:created": "Thu Mar 21 2019 14:29:59 GMT-0400",
+    "ADBE": {
+        "jcr:primaryType": "sling:OrderedFolder",
+        "jcr:createdBy": "training-user",
+        "jcr:created": "Thu Mar 21 2019 14:29:59 GMT-0400",
+        "trade": {
+            "jcr:primaryType": "nt:unstructured",
+            "week52Low": 204.95,
+            "week52High": 277.61,
+            "ytdPercentageChange": 0.16801041100770367,
+            "sector": "Technology",
+            "timeOfUpdate": "02:29 PM EDT",
+            "upDown": 2.96,
+            "volume": 1111095,
+            "rangeHigh": 262.35,
+            "companyName": "Adobe Inc.",
+            "dayOfLastUpdate": "Thu March 21, 2019",
+            "rangeLow": 258.4,
+            "openPrice": 259,
+            "lastTrade": 262.7
+        }
+    },
+    "MSFT": {
+        "jcr:primaryType": "sling:OrderedFolder",
+        "jcr:createdBy": "training-user",
+        "jcr:created": "Thu Mar 21 2019 14:29:59 GMT-0400",
+        "trade": {
+            "jcr:primaryType": "nt:unstructured",
+            "week52Low": 87.08,
+            "week52High": 119.2,
+            "ytdPercentageChange": 0.1831478470035227,
+            "sector": "Technology",
+            "timeOfUpdate": "02:31 PM EDT",
+            "upDown": 1.88,
+            "volume": 13643986,
+            "rangeHigh": 119.2,
+            "companyName": "Microsoft Corporation",
+            "dayOfLastUpdate": "Thu March 21, 2019",
+            "rangeLow": 117.09,
+            "openPrice": 117.36,
+            "lastTrade": 119.4
+        }
+    },
+    "WDAY": {
+        "jcr:primaryType": "sling:OrderedFolder",
+        "jcr:createdBy": "training-user",
+        "jcr:created": "Thu Mar 21 2019 14:31:59 GMT-0400",
+        "trade": {
+            "jcr:primaryType": "nt:unstructured",
+            "week52Low": 117.24,
+            "week52High": 200,
+            "ytdPercentageChange": 0.22790789658194566,
+            "sector": "Technology",
+            "timeOfUpdate": "02:31 PM EDT",
+            "upDown": 4.145,
+            "volume": 652061,
+            "rangeHigh": 196.93,
+            "companyName": "Workday Inc.",
+            "dayOfLastUpdate": "Thu March 21, 2019",
+            "rangeLow": 191.01,
+            "openPrice": 191.61,
+            "lastTrade": 196.855
+        }
+    },
+    "AMZN": {
+        "jcr:primaryType": "sling:OrderedFolder",
+        "jcr:createdBy": "training-user",
+        "jcr:created": "Thu Mar 21 2019 14:31:59 GMT-0400",
+        "trade": {
+            "jcr:primaryType": "nt:unstructured",
+            "week52Low": 1307,
+            "week52High": 2050.5,
+            "ytdPercentageChange": 0.17914812647404693,
+            "sector": "Consumer Cyclical",
+            "timeOfUpdate": "02:30 PM EDT",
+            "upDown": 20.54,
+            "volume": 4030858,
+            "rangeHigh": 1819.304,
+            "companyName": "Amazon.com Inc.",
+            "dayOfLastUpdate": "Thu March 21, 2019",
+            "rangeLow": 1787.281,
+            "openPrice": 1799,
+            "lastTrade": 1817.81
+        }
+    },
+    "GOOG": {
+        "jcr:primaryType": "sling:OrderedFolder",
+        "jcr:createdBy": "training-user",
+        "jcr:created": "Thu Mar 21 2019 14:31:59 GMT-0400",
+        "trade": {
+            "jcr:primaryType": "nt:unstructured",
+            "week52Low": 970.11,
+            "week52High": 1273.89,
+            "ytdPercentageChange": 0.17484123009991887,
+            "sector": "Technology",
+            "timeOfUpdate": "02:30 PM EDT",
+            "upDown": 5.55,
+            "volume": 611308,
+            "rangeHigh": 1227.88,
+            "companyName": "Alphabet Inc.",
+            "dayOfLastUpdate": "Thu March 21, 2019",
+            "rangeLow": 1213.15,
+            "openPrice": 1216,
+            "lastTrade": 1229.52
+        }
+    }
+}

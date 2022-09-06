@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/training" mode="merge"/>
+    <filter root="/content/training" mode="merge"/>
+    <filter root="/content/dam/training" mode="merge"/>
+    <filter root="/content/experience-fragments/training" mode="merge"/>
+    <filter root="/content/pagecreator" mode="merge"/>
+    <filter root="/conf/global/settings/workflow/models/set-review-status"/>
+    <filter root="/var/workflow/models/set-review-status"/>
+</workspaceFilter>

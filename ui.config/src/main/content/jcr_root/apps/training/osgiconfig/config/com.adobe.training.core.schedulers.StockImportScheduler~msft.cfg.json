@@ -1,0 +1,5 @@
+{
+    "symbol":"MSFT",
+    "stock.url":"https://raw.githubusercontent.com/Adobe-Marketing-Cloud/ADLS-Samples/master/stock-data/",
+    "cronExpression":"0 0/2 * * * ?"
+}

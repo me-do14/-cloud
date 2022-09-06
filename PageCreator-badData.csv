@@ -1,0 +1,16 @@
+/content/training/us/en/products,Products,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/apparel,ExpSuccess
+/content/training/us/en/products/men,Men,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/gender/men,ExpSuccess
+/content/training/us/en/products/girls,Girls,/conf/training/settings/wcm/templates/page-content,/etc/tags/training/gender/women,ExpSuccess
+/content/training/us/en/products/women,Women,/conf/training/settings/wcm/templates/page-content,training:gender/women,ExpSuccess
+/content/training/us/en/products/women/coats,Coats,/conf/templates/coats,/content/cq:tags/training/apparel/coat,ExpErrReason:Template
+/content/training/us/en/products/women/coats/raincoat,Rain Coats,/conf/templates/coats,/content/cq:tags/training/apparel/coat,ExpErrReason:Template
+/content/training/us/en/products/women/coats/insulated,Insulated Coats,/conf/training/settings/wcm/templates/page-content,/content/cq:tags/training/apparel/coat,ExpErrReason:noParent
+/content/training/us/en/products/women/shirts,Shirts,,/content/cq:tags/training/apparel/shirt,ExpSuccess
+,T-shirts,,/content/cq:tags/training/apparel/shirt,ExpErrReason:noPath
+/content/training/us/en/products/women/shirts/polo-shirts,,,/content/cq:tags/training/apparel/shirt,ExpWarnReason:noTitle
+/content/training/us/en/products/women/pants,Pants,,/content/cq:tags/training/apparel/jeans,ExpSuccess
+/content/training/us/en/products/women/pants/jeans,,,/content/cq:tags/training/apparel/jeans,ExpWarnReason:noTitle
+/content/training/us/en/products/women/pants/stretchypants,Stretchy Pants,,/content/tagging/training/apparel/stretchy,ExpWarnReason:Tags
+/content/training/us/en/products/women/shorts,Shorts,,/content/cq:tags/training/apparel/shorts,ExpSuccess
+shorts/khakis,Khaki Shorts,,/etc/tags/training/apparel/shorts,ExpErrReason:noParent
+/content/training/us/en/products/women/shorts/jeans,Jean Shorts,,shorts,ExpWarnReason:Tags
