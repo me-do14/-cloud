@@ -1,0 +1,8 @@
+{
+    "scheduledpurge.workflowStatus":"COMPLETED",
+    "scheduledpurge.name":"Custom Publish Workflow",
+    "scheduledpurge.daysold:Integer":0,
+    "scheduledpurge.modelIds":[
+      "/var/workflow/models/custom-publish-workflow"
+    ]
+  }
