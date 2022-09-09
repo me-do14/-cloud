@@ -1,0 +1,10 @@
+{
+    "scripts:String[]":[
+      "create service user training-user",
+      "set ACL on /content \r\nallow jcr:all for training-user \r\nend"
+    ],
+    "references":[
+      ""
+    ]
+}
+  
